@@ -2,9 +2,8 @@
 ■TSL2561照度センサ
 ○tsl2561.rb
 - TSL2561照度センサから照度情報[lux]を取得し、Cumulocityへアップロードするプログラム。
-
-○tsl2561client.rb
-- MT社製Agent(SocketAgent)を活用し、TSL2561照度センサから照度情報[lux]を取得し、Cumulocityへアップロードするプログラム。
+- usage: 同じディレクトリにLightSensorLib.rb を配置した上で、下記を実行
+$ ruby tsl2561.rb
 
 ○セットアップ方法
 - Raspberry piのSPIとI2Cを有効化する
