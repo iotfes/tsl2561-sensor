@@ -1,0 +1,10 @@
+# デバイスID (Cumulocityが払い出したID)
+deviceId: "******"
+# CumulocityへのログインID
+userId: "******"
+# Cumulocityへのログインパスワード
+password:  "******"
+# I2Cへのファイルパス (例："/dev/i2c-1")
+i2cpath: "******"
+# CumulocityのURL
+url: "******"
